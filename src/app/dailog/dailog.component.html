@@ -1,0 +1,9 @@
+
+  <form #userForm="ngForm" (ngSubmit)="getUserFormData(userForm.value)">
+    <input type="text" name="ID" placeholder="Enter id" ngModel><br><br>
+    <input type="text" name="Title" placeholder="Enter title" ngModel><br><br>
+
+    <input type="text" name="Body" placeholder="Enter body" ngModel><br><br>
+    <!-- <div><button (click)="addPost()">AddPost</button></div> -->
+    <button>Add New Item</button>
+  </form>
